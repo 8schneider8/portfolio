@@ -1,0 +1,38 @@
+.Giang{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px
+}
+
+.Giang img{
+    margin-top: 65px;
+    max-width: 200px;
+    height: auto;
+}
+
+.Giang h1{
+    text-align: center;
+    font-size: 90;
+    font-weight: 400;
+}
+
+.Giang button{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(238,174,202,1) 25%, rgba(148,187,233,1) 100%);
+    transition: background 0.3s ease;
+    cursor: pointer;
+}
+
+.Giang button:hover{
+    border-color: #94bbe9;
+}
